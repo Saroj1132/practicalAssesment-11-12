@@ -38,10 +38,10 @@ GET /games?sortBy=score&sortOrder=desc
 
 Create `.env` file:
 ```
-DB_HOST=aasvaa-legal.cluster-cfw2guwkm5ct.us-west-2.rds.amazonaws.com
+DB_HOST=localhost
 DB_PORT=3306
 DB_USERNAME=admin
-DB_PASSWORD=Tn9TdWF97ZSSNZRjykE4
+DB_PASSWORD=admin
 DB_DATABASE=practicalAssesment
 JWT_SECRET=your-jwt-secret
 JWT_EXPIRES_IN=24h
